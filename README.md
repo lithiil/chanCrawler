@@ -1,4 +1,5 @@
 # ChanCrawlerGem
+[![Gem Version](https://badge.fury.io/rb/chanCrawlerGem.svg)](https://badge.fury.io/rb/chanCrawlerGem)
 
 This gem scowers 4chan (or any chan copy theoretically) searching for threads that
 contains key words specified by you on boards specified by you and downloads
