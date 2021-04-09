@@ -5,15 +5,17 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'chanCrawlerGem/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'chanCrawlerGem'
-  spec.version       = ChanCrawlerGem::VERSION
-  spec.authors       = ['Lithiil']
-  spec.email         = ['tudorjamal@gmail.com']
+  spec.name = 'chanCrawlerGem'
+  spec.version = ChanCrawlerGem::VERSION
+  spec.authors = ['Lithiil']
+  spec.email = ['tudorjamal@gmail.com']
 
-  spec.summary       = 'Test'
-  spec.description   = 'test'
-  spec.homepage      = 'https://github.com/lithiil/chanCrawler'
-  spec.license       = 'MIT'
+  spec.summary = 'This gem downloads images, gifs and webms from 4chan threads'
+  spec.description = 'This gem scowers 4chan (or any chan copy theoretically) searching for threads that
+  contains key words specified by you on boards specified by you and downloads
+  all the images, gifs and webms to a specified folder'
+  spec.homepage = 'https://github.com/lithiil/chanCrawler'
+  spec.license = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -33,8 +35,8 @@ Gem::Specification.new do |spec|
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
-  spec.bindir        = 'exe'
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.bindir = 'exe'
+  spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.17'
