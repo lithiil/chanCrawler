@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Test'
   spec.description   = 'test'
-  spec.homepage      = 'https://github.com/chanCrawler'
+  spec.homepage      = 'https://github.com/lithiil/chanCrawler'
   spec.license       = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "https://rubygems.org"
 
     spec.metadata['homepage_uri'] = spec.homepage
-    spec.metadata['source_code_uri'] = 'https://github.com/chanCrawler'
-    spec.metadata['changelog_uri'] = 'https://github.com/chanCrawler'
+    spec.metadata['source_code_uri'] = 'https://github.com/lithiil/chanCrawler'
+    spec.metadata['changelog_uri'] = 'https://github.com/lithiil/chanCrawler'
   else
     raise 'RubyGems 2.0 or newer is required to protect against ' \
       'public gem pushes.'
