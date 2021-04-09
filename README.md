@@ -4,6 +4,8 @@ This gem scowers 4chan (or any chan copy theoretically) searching for threads th
 contains key words specified by you on boards specified by you and downloads
 all the images, gifs and webms to a specified folder
 
+You can also find the gem at https://rubygems.org/gems/chanCrawlerGem
+
 ## Installation
 
 
