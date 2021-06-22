@@ -39,15 +39,15 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.17'
-  spec.add_development_dependency 'dotenv'
-  spec.add_development_dependency 'down'
-  spec.add_development_dependency 'fileutils'
-  spec.add_development_dependency 'httparty'
-  spec.add_development_dependency 'json'
-  spec.add_development_dependency 'nokogiri'
-  spec.add_development_dependency 'open-uri'
-  spec.add_development_dependency 'pry'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_dependency 'bundler', '~> 1.17'
+  spec.add_dependency 'dotenv'
+  spec.add_dependency 'down'
+  spec.add_dependency 'fileutils'
+  spec.add_dependency 'httparty'
+  spec.add_dependency 'json'
+  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'open-uri'
+  spec.add_dependency 'pry'
+  spec.add_dependency 'rake', '~> 10.0'
+  spec.add_dependency 'rspec', '~> 3.0'
 end
